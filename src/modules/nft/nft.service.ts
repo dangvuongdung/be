@@ -8,7 +8,7 @@ import { AppError } from '@configs/app-error'
 import { ERROR_CODE } from '@configs/codes'
 import { DateHelper } from '@helpers/date.helper'
 import { Wallet, ethers } from 'ethers'
-import * as abi from '@contracts/abi/NFt.json'
+import * as abi from '@contracts/abi/NFT.json'
 
 @Injectable()
 export class NftService {
